@@ -21,17 +21,9 @@ import './commands/services/basicServiceCommands.ts'
 // require('./commands')
 declare global{
     namespace Cypress {
-        interface Chainable {
-          /**
-           * Custom command to select DOM element by data-cy attribute.
-           * @example cy.dataCy('greeting')
-           */
-          
+        interface Chainable {        
           login(username: string, password: string): Chainable<Element>,
           authenticate(username: string, password: string): Chainable<Element>
-
-    
-    
         }
       }
 }
