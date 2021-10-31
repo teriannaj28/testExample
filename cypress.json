@@ -1,0 +1,14 @@
+{
+    "baseUrl": "http://the-internet.herokuapp.com",
+    "retries":{
+        "openMode": 1,
+        "runMode": 1
+    },
+    "env":{
+        "testUser":{
+            "username": "tomsmith",
+            "password": "SuperSecretPassword!"
+        },
+        "baseServiceUrl": "https://the-internet.herokuapp.com/"
+    }
+}

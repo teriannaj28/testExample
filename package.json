@@ -1,0 +1,17 @@
+{
+  "name": "gitrepository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress open",
+    "web": "cypress run --spec cypress/integration/web/*",
+    "services": "cypress run --spec cypress/integration/services/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "typescript": "^4.4.4"
+  }
+}
