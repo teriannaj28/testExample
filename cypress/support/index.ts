@@ -5,7 +5,7 @@ declare global {
         interface Chainable {        
           login(username: string, password: string): Chainable<Element>,
           authenticate(username: string, password: string): Chainable<Element>
-          secure(): Chainable<Element>
+          getPsuedoAttribute(el:any, psuedoAttribute: string, propertyVal:string): Chainable<Element>
         }
       }
 }
