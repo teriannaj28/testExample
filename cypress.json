@@ -1,14 +1,18 @@
 {
-    "baseUrl": "http://the-internet.herokuapp.com",
-    "retries":{
-        "openMode": 1,
+    "baseUrl": "http://the-internet.herokuapp.com/",
+    "watchForFileChanges": false,
+    "chromeWebSecurity": false,
+
+    "retries": {
+        "openMode": 0,
         "runMode": 1
     },
+
     "env":{
+        "baseServicesUrl": "http://the-internet.herokuapp.com/",
         "testUser":{
             "username": "tomsmith",
             "password": "SuperSecretPassword!"
-        },
-        "baseServiceUrl": "https://the-internet.herokuapp.com/"
+        }
     }
 }

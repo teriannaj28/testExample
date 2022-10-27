@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress open",
-    "web": "cypress run --spec cypress/integration/web/*",
-    "services": "cypress run --spec cypress/integration/services/*"
+    "cy": "cypress open",
+    "web": "cypress run --spec **/web/*.spec.ts",
+    "services": "cypress run --spec **/services/*.spec.ts",
+    "tests": "cypress run"
   },
   "author": "",
   "license": "ISC",
